@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Others</string>
+    <string name="start_service">StartCustomService</string>
+    <string name="start_intent_service">StartCustomIntentService</string>
+</resources>
