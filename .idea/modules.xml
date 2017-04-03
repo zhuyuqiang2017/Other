@@ -8,7 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/customappwidget/customappwidget.iml" filepath="$PROJECT_DIR$/customappwidget/customappwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbdemo/dbdemo.iml" filepath="$PROJECT_DIR$/dbdemo/dbdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" filepath="$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/permissionbroadcast/permissionbroadcast.iml" filepath="$PROJECT_DIR$/permissionbroadcast/permissionbroadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionbroadcastreceiver/permissionbroadcastreceiver.iml" filepath="$PROJECT_DIR$/permissionbroadcastreceiver/permissionbroadcastreceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionbroadcastsender/permissionbroadcastsender.iml" filepath="$PROJECT_DIR$/permissionbroadcastsender/permissionbroadcastsender.iml" />
       <module fileurl="file://$PROJECT_DIR$/velocitytrackerdemo/velocitytrackerdemo.iml" filepath="$PROJECT_DIR$/velocitytrackerdemo/velocitytrackerdemo.iml" />
     </modules>
   </component>

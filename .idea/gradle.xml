@@ -14,7 +14,8 @@
             <option value="$PROJECT_DIR$/customappwidget" />
             <option value="$PROJECT_DIR$/dbdemo" />
             <option value="$PROJECT_DIR$/keepserviceactive" />
-            <option value="$PROJECT_DIR$/permissionbroadcast" />
+            <option value="$PROJECT_DIR$/permissionbroadcastreceiver" />
+            <option value="$PROJECT_DIR$/permissionbroadcastsender" />
             <option value="$PROJECT_DIR$/velocitytrackerdemo" />
           </set>
         </option>

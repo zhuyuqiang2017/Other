@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PermissionBroadcast</string>
+    <string name="method_name">Send Broadcast</string>
 </resources>
