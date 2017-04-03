@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/off"
+        android:drawable="@drawable/ic_location"
+        android:state_selected="false" />
+    <item
+        android:id="@+id/on"
+        android:drawable="@drawable/ic_location"
+        android:state_selected="true" />
+    <transition
+        android:fromId="@id/off"
+        android:toId="@id/on">
+        <animated-vector android:drawable="@drawable/ic_location">
+            <target
+                android:name="location_group"
+                android:animation="@animator/location_animator" />
+        </animated-vector>
+    </transition>
+</animated-selector>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ActionBarDemo</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="four">Fourth</string>
+    <string name="alarm_name">Alarm</string>
+    <string name="location_name">Location</string>
+    <string name="toy_name">Toy</string>
+</resources>

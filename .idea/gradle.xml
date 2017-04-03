@@ -9,7 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/actionbardemo" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customappwidget" />
+            <option value="$PROJECT_DIR$/dbdemo" />
+            <option value="$PROJECT_DIR$/keepserviceactive" />
+            <option value="$PROJECT_DIR$/permissionbroadcast" />
+            <option value="$PROJECT_DIR$/velocitytrackerdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

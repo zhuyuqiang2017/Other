@@ -3,7 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Others2.iml" filepath="$PROJECT_DIR$/Others2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionbardemo/actionbardemo.iml" filepath="$PROJECT_DIR$/actionbardemo/actionbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customappwidget/customappwidget.iml" filepath="$PROJECT_DIR$/customappwidget/customappwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbdemo/dbdemo.iml" filepath="$PROJECT_DIR$/dbdemo/dbdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" filepath="$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionbroadcast/permissionbroadcast.iml" filepath="$PROJECT_DIR$/permissionbroadcast/permissionbroadcast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/velocitytrackerdemo/velocitytrackerdemo.iml" filepath="$PROJECT_DIR$/velocitytrackerdemo/velocitytrackerdemo.iml" />
     </modules>
   </component>
 </project>
