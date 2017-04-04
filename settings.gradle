@@ -1,1 +1,1 @@
-include ':app', ':velocitytrackerdemo', ':actionbardemo', ':keepserviceactive', ':permissionbroadcastsender', ':customappwidget', ':dbdemo', ':permissionbroadcastreceiver'
+include ':app', ':velocitytrackerdemo', ':actionbardemo', ':keepserviceactive', ':permissionbroadcastsender', ':customappwidget', ':dbdemo', ':permissionbroadcastreceiver', ':dialogdemo', ':dialogfragmentdemo'

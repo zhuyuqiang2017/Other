@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="dialog">"弹出一个弹框"</string>
+</resources>

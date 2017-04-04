@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/customappwidget/customappwidget.iml" filepath="$PROJECT_DIR$/customappwidget/customappwidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/dbdemo/dbdemo.iml" filepath="$PROJECT_DIR$/dbdemo/dbdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogdemo/dialogdemo.iml" filepath="$PROJECT_DIR$/dialogdemo/dialogdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialogfragmentdemo/dialogfragmentdemo.iml" filepath="$PROJECT_DIR$/dialogfragmentdemo/dialogfragmentdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" filepath="$PROJECT_DIR$/keepserviceactive/keepserviceactive.iml" />
       <module fileurl="file://$PROJECT_DIR$/permissionbroadcastreceiver/permissionbroadcastreceiver.iml" filepath="$PROJECT_DIR$/permissionbroadcastreceiver/permissionbroadcastreceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/permissionbroadcastsender/permissionbroadcastsender.iml" filepath="$PROJECT_DIR$/permissionbroadcastsender/permissionbroadcastsender.iml" />

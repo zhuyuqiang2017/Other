@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/customappwidget" />
             <option value="$PROJECT_DIR$/dbdemo" />
+            <option value="$PROJECT_DIR$/dialogdemo" />
+            <option value="$PROJECT_DIR$/dialogfragmentdemo" />
             <option value="$PROJECT_DIR$/keepserviceactive" />
             <option value="$PROJECT_DIR$/permissionbroadcastreceiver" />
             <option value="$PROJECT_DIR$/permissionbroadcastsender" />
