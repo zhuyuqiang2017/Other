@@ -9,16 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/actionbardemo" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/customappwidget" />
-            <option value="$PROJECT_DIR$/dbdemo" />
-            <option value="$PROJECT_DIR$/dialogdemo" />
-            <option value="$PROJECT_DIR$/dialogfragmentdemo" />
-            <option value="$PROJECT_DIR$/keepserviceactive" />
-            <option value="$PROJECT_DIR$/permissionbroadcastreceiver" />
-            <option value="$PROJECT_DIR$/permissionbroadcastsender" />
-            <option value="$PROJECT_DIR$/velocitytrackerdemo" />
+            <option value="$PROJECT_DIR$/appwidgetdemo" />
+            <option value="$PROJECT_DIR$/camerademo" />
+            <option value="$PROJECT_DIR$/notificationdemo" />
+            <option value="$PROJECT_DIR$/toastdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

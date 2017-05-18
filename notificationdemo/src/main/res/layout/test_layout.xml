@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Menu"
+        android:nextFocusDown="@+id/text_bottom"
+        android:nextFocusLeft="@+id/text_left"
+        android:nextFocusRight="@+id/text_right"
+        android:nextFocusUp="@+id/text_top" />
+
+    <EditText
+        android:id="@+id/text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/text_bottom"
+        android:nextFocusRight="@+id/edit"
+        android:nextFocusUp="@+id/text_top"
+        android:text="Left" />
+
+    <EditText
+        android:id="@+id/text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit"
+        android:layout_alignBottom="@+id/edit"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/text_bottom"
+        android:nextFocusLeft="@+id/edit"
+        android:nextFocusUp="@+id/text_top"
+        android:text="Right" />
+
+    <EditText
+        android:id="@+id/text_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:focusable="true"
+        android:nextFocusDown="@+id/edit"
+        android:nextFocusLeft="@+id/text_left"
+        android:nextFocusRight="@+id/text_right"
+        android:text="Top" />
+
+    <EditText
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:focusable="true"
+        android:nextFocusLeft="@+id/text_left"
+        android:nextFocusRight="@+id/text_right"
+        android:nextFocusUp="@+id/edit"
+        android:text="Bottom" />
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:src="@mipmap/ic_launcher" />
+</RelativeLayout>

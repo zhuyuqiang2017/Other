@@ -1,0 +1,13 @@
+<resources>
+    <string name="reply">Reply</string>
+    <string name="app_name">NotificationDemo</string>
+    <string name="show_normal_notification">ShowNormalNotification</string>
+    <string name="show_big_text_style_notification">ShowBigTextNotification</string>
+    <string name="show_big_picture_style_notification">ShowBigPictureNotification</string>
+    <string name="show_inbox_style_notification">ShowInboxNotification</string>
+    <string name="show_media_style_notification">ShowMediaNotification</string>
+    <string name="show_message_style_notification">ShowMessageNotification</string>
+    <string name="show_custom_style_notification">ShowCustomNotification</string>
+    <string name="show_reply_notification">ShowReplyNotification</string>
+    <string name="show_head_up_notification">ShowHeadUpNotification</string>
+</resources>
