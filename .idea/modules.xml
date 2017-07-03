@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Others2.iml" filepath="$PROJECT_DIR$/Others2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apertureview/apertureview.iml" filepath="$PROJECT_DIR$/apertureview/apertureview.iml" />
       <module fileurl="file://$PROJECT_DIR$/appwidgetdemo/appwidgetdemo.iml" filepath="$PROJECT_DIR$/appwidgetdemo/appwidgetdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/camerademo/camerademo.iml" filepath="$PROJECT_DIR$/camerademo/camerademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkanimationandthread/checkanimationandthread.iml" filepath="$PROJECT_DIR$/checkanimationandthread/checkanimationandthread.iml" />
       <module fileurl="file://$PROJECT_DIR$/notificationdemo/notificationdemo.iml" filepath="$PROJECT_DIR$/notificationdemo/notificationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/toastdemo/toastdemo.iml" filepath="$PROJECT_DIR$/toastdemo/toastdemo.iml" />
     </modules>

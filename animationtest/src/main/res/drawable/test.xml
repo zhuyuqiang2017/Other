@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_capture_refocus"
+    android:scaleGravity="center"
+    android:scaleHeight="100%"
+    android:scaleWidth="100%"
+    >
+</scale>

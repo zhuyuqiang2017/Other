@@ -1,2 +1,2 @@
-include ':appwidgetdemo', ':notificationdemo', ':toastdemo', ':toastdemo', ':camerademo'
+include ':appwidgetdemo', ':notificationdemo', ':toastdemo', ':toastdemo', ':camerademo', ':apertureview', ':checkanimationandthread'
 //':app', ':velocitytrackerdemo', ':actionbardemo', ':keepserviceactive', ':permissionbroadcastsender', ':customappwidget', ':dbdemo', ':permissionbroadcastreceiver', ':dialogdemo', ':dialogfragmentdemo',

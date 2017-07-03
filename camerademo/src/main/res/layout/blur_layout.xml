@@ -4,13 +4,12 @@
     android:layout_height="match_parent"
     >
     <ImageView
-        android:src="@drawable/first"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/source_image"/>
-    <ImageView
+<!--    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/blur_mask"/>
+        android:src="@drawable/blur_mask"/>-->
 
 </FrameLayout>

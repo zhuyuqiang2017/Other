@@ -9,8 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/apertureview" />
             <option value="$PROJECT_DIR$/appwidgetdemo" />
             <option value="$PROJECT_DIR$/camerademo" />
+            <option value="$PROJECT_DIR$/checkanimationandthread" />
             <option value="$PROJECT_DIR$/notificationdemo" />
             <option value="$PROJECT_DIR$/toastdemo" />
           </set>

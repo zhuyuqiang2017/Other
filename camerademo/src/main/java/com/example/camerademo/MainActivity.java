@@ -14,11 +14,13 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.graphics.YuvImage;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,10 +31,12 @@ public class MainActivity extends AppCompatActivity {
     private SurfaceView mSurfaceView;
     private int mWidth,mHeight;
     private float width,height;
+    private ImageView show_image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        show_image = (ImageView) findViewById(R.id.image_view);
         mContainer1 = (LinearLayout)findViewById(R.id.container1);
         mContainer2 = (LinearLayout)findViewById(R.id.container2);
         mCamera = Camera.open(0);
@@ -40,8 +44,8 @@ public class MainActivity extends AppCompatActivity {
         mContainer1.addView(mPreview);
         mCallBack = new CameraCallBack();
         mCamera.setPreviewCallback(mCallBack);
-        mSurfaceView = new SurfaceView(this);
-        mContainer2.addView(mSurfaceView);
+//        mSurfaceView = new SurfaceView(this);
+//        mContainer2.addView(mSurfaceView);
         Camera.Size mSize = mCamera.getParameters().getPreviewSize();
         mWidth = mSize.width;
         mHeight = mSize.height;
@@ -70,18 +74,8 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Matrix matrix = new Matrix();
-        matrix.postRotate(90);
-        matrix.postTranslate(mWidth,0);
-        SurfaceHolder mHolder = mSurfaceView.getHolder();
-        Canvas c = mHolder.lockCanvas();
-        if(c != null)
-        c.save();
-                c.rotate(90,c.getWidth()/2,c.getHeight()/2);
-        c.drawBitmap(blurImageAmeliorate(Bitmap.createBitmap(b,0,0,b.()/50,b.getHeight()/50)),
-                new Rect(0,0,b.getWidth()/50,b.getHeight()/50),new Rect(0,0,c.getWidth(),c.getHeight()),null);
-        c.restore();
-        mHolder.unlockCanvasAndPost(c);
+        show_image.setImageBitmap(Blur(b));
+
     }
 
     @Override
@@ -91,70 +85,27 @@ public class MainActivity extends AppCompatActivity {
             mCamera.release();
         }
     }
-    private Bitmap blurImageAmeliorate(Bitmap bmp)
-    {
+
+    private Bitmap Blur(Bitmap b){
         long start = System.currentTimeMillis();
-        int[] gauss = new int[] { 1, 2, 1, 2, 4, 2, 1, 2, 1 };
-
-        int width = bmp.getWidth();
-        int height = bmp.getHeight();
-        Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_4444);
-
-        int pixR = 0;
-        int pixG = 0;
-        int pixB = 0;
-
-        int pixColor = 0;
-
-        int newR = 0;
-        int newG = 0;
-        int newB = 0;
-
-        int delta = 16; // 值越小图片会越亮，越大则越暗
-
-        int idx = 0;
-        int[] pixels = new int[width * height];
-        bmp.getPixels(pixels, 0, width, 0, 0, width, height);
-        for (int i = 1, length = height - 1; i < length; i++)
-        {
-            for (int k = 1, len = width - 1; k < len; k++)
-            {
-                idx = 0;
-                for (int m = -1; m <= 1; m++)
-                {
-                    for (int n = -1; n <= 1; n++)
-                    {
-                        pixColor = pixels[(i + m) * width + k + n];
-                        pixR = Color.red(pixColor);
-                        pixG = Color.green(pixColor);
-                        pixB = Color.blue(pixColor);
-
-                        newR = newR + (int) (pixR * gauss[idx]);
-                        newG = newG + (int) (pixG * gauss[idx]);
-                        newB = newB + (int) (pixB * gauss[idx]);
-                        idx++;
-                    }
-                }
-
-                newR /= delta;
-                newG /= delta;
-                newB /= delta;
-
-                newR = Math.min(255, Math.max(0, newR));
-                newG = Math.min(255, Math.max(0, newG));
-                newB = Math.min(255, Math.max(0, newB));
-
-                pixels[i * width + k] = Color.argb(255, newR, newG, newB);
-
-                newR = 0;
-                newG = 0;
-                newB = 0;
+        int width = b.getWidth();
+        int height = b.getHeight();
+        Bitmap result = Bitmap.createBitmap(width,height, Bitmap.Config.ARGB_8888);
+        int color = 0;
+        Random rnd = new Random();
+        int iModel = 10;
+        int i = width-iModel;
+        while(i>1){
+            int j = height-iModel;
+            while(j >1){
+                int iPos = rnd.nextInt(1000)%iModel;
+                color = b.getPixel(i+iPos,j+iPos);
+                result.setPixel(i,j,color);
+                j--;
             }
+            i--;
         }
-
-        bitmap.setPixels(pixels, 0, width, 0, 0, width, height);
-        long end = System.currentTimeMillis();
-        Log.d("may", "used time="+(end - start));
-        return bitmap;
+        Log.e("zyq","total time = "+(System.currentTimeMillis()-start));
+        return result;
     }
 }
