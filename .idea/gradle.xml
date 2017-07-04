@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/checkanimationandthread" />
             <option value="$PROJECT_DIR$/notificationdemo" />
             <option value="$PROJECT_DIR$/toastdemo" />
+            <option value="$PROJECT_DIR$/xfermodedemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

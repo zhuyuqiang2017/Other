@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/checkanimationandthread/checkanimationandthread.iml" filepath="$PROJECT_DIR$/checkanimationandthread/checkanimationandthread.iml" />
       <module fileurl="file://$PROJECT_DIR$/notificationdemo/notificationdemo.iml" filepath="$PROJECT_DIR$/notificationdemo/notificationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/toastdemo/toastdemo.iml" filepath="$PROJECT_DIR$/toastdemo/toastdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xfermodedemo/xfermodedemo.iml" filepath="$PROJECT_DIR$/xfermodedemo/xfermodedemo.iml" />
     </modules>
   </component>
 </project>
